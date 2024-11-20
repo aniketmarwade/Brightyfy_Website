@@ -1,0 +1,474 @@
+
+.carouseller:before, .carouseller:after {  content: " ";  display: table;}
+.carouseller:after { clear: both;}
+.carouseller { position: relative;}
+
+.carouseller [class*="car__"]{
+display: inline-block; 
+position: relative;
+margin-left: 0.2564102564102564% !important;
+*margin-left: 0.25109110747408616% !important;
+float: left;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.carouseller [class*="car__"]:first-child  { margin-left: 0 !important;}
+.carouseller [class*="car__"]:nth-child(n+7) { display: none;}
+
+.carouseller .car__by5 { width: 1.793789743589745%;}
+.carouseller .car__12 { width: 10%;}
+.carouseller .car__6 { width: 4.8837948717948715%;}
+.carouseller .car__4 { width: 3.45465%;}
+.carouseller .car__3 { width: 3.123223077%;}
+.carouseller .car__2 { width: 3.123223077%;}
+.carouseller .car__1 { width: 0.5982905982905983%;}
+
+.carouseller .carouseller__list { position: relative; width: 997.4358974358974%;}
+.carouseller .carouseller__wrap { overflow: hidden; position: relative; margin: 0 35px}
+
+.car__2 {
+margin-bottom:0.5vw;
+background-color:none;
+padding:10px 0 10px 0;
+}
+.car__2 img {
+width:60%;
+margin:0 auto;
+}
+.car__2 h2 {
+font-family: 'Roboto', sans-serif;
+font-size:1.2vw;
+font-weight:400;
+padding:1vw 0;
+color:#000;
+line-height:1.8em;
+width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+text-transform:uppercase;
+}
+.car__2 h4 {
+font-family: 'Roboto', sans-serif;
+font-size:1.4vw;
+font-weight:600;
+padding:0;
+color:#000;
+line-height:1.5em;
+width: 100%;
+margin-top: 0;
+margin-bottom:1vw;
+text-transform:uppercase;
+}
+
+
+
+/*------Responsive-----------*/
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+.carouseller .carouseller__left, 
+.carouseller .carouseller__right {
+position: absolute;
+margin-bottom:40%;
+top:40%;
+background: none repeat scroll 0 0 transparent;
+font-size:40px;
+opacity: 0.8;
+text-align: center;
+color: #000;
+text-decoration: none;
+background-color:#FFF;
+width:40px;
+height:45px;
+line-height:40px;
+}
+.carouseller .carouseller__left { left: -0vw;}
+.carouseller .carouseller__right { right: -0vw;}
+.carouseller .carouseller__left:hover, .carouseller .carouseller__:hover { opacity: 0.8;}
+
+.carouseller .car__by5,
+.carouseller .car__12,
+.carouseller .car__6,
+.carouseller .car__4,
+.carouseller .car__3,
+.carouseller .car__2,
+.carouseller .car__1 { width: 3.1623931623931625%;}
+.add-btn {
+font-size: 14px;
+border:1px #c1c1c1 solid;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+padding:1% 2%;
+text-transform:uppercase;
+margin-top:1%;
+text-decoration:none;
+}
+
+.car__2 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__2 img {
+width:100%;
+margin:0 auto;
+}
+.car__2 h2 {
+font-size:18px;
+padding:15px 0;
+line-height:1.3em;
+}
+.car__2 h4 {
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+font-weight:600;
+padding:0;
+color:#000;
+line-height:1.5em;
+width: 100%;
+margin-top: 0;
+margin-bottom:10px;
+text-transform:uppercase;
+}
+.car__3 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__3 img {
+width:30%;
+margin:0 auto;
+}
+.car__3 h2 {
+font-size:18px;
+padding:10px 0;
+line-height:1.3em;
+}
+.car__4 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__4 img {
+width:35%;
+margin:0 auto;
+}
+.car__4 h2 {
+font-size:16px;
+padding:10px 0;
+line-height:1.3em;
+}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.carouseller .carouseller__left, 
+.carouseller .carouseller__right {
+position: absolute;
+margin-bottom:40%;
+top:35%;
+background: none repeat scroll 0 0 transparent;
+font-size:40px;
+opacity: 0.8;
+text-align: center;
+color: #000;
+text-decoration: none;
+background-color:#FFF;
+width:40px;
+height:45px;
+line-height:40px;
+}
+.carouseller .carouseller__left { left: -0vw;}
+.carouseller .carouseller__right { right: -0vw;}
+.carouseller .carouseller__left:hover, .carouseller .carouseller__:hover { opacity: 0.8;}
+
+.carouseller .car__by5,
+.carouseller .car__12,
+.carouseller .car__6,
+.carouseller .car__4,
+.carouseller .car__3,
+.carouseller .car__2,
+.carouseller .car__1 { width: 4.8717948717948715%;}
+.add-btn {
+font-size: 14px;
+border:1px #c1c1c1 solid;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+padding:10px 10px;
+text-transform:uppercase;
+margin-top:10px;
+text-decoration:none;
+}
+
+.car__2 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__2 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__2 img {
+width:100%;
+margin:0 auto;
+}
+.car__2 h2 {
+font-size:18px;
+padding:15px 0;
+line-height:1.3em;
+}
+.car__2 h4 {
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+font-weight:600;
+padding:0;
+color:#000;
+line-height:1.5em;
+width: 100%;
+margin-top: 0;
+margin-bottom:10px;
+text-transform:uppercase;
+}
+.car__3 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__3 img {
+width:30%;
+margin:0 auto;
+}
+.car__3 h2 {
+font-size:18px;
+padding:10px 0;
+line-height:1.3em;
+}
+.car__4 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__4 img {
+width:25%!important;
+margin:0 auto;
+}
+.car__4 h2 {
+font-size:16px;
+padding:10px 0;
+line-height:1.3em;
+}
+.carouseller .carouseller__wrap {
+overflow: hidden;
+position: relative;
+margin: 0 39px;
+}
+}
+/* Landscape phones and down */
+@media (min-width:320px) and (max-width:439px) {
+.carouseller .carouseller__left, 
+.carouseller .carouseller__right {
+position: absolute;
+margin-bottom:40%;
+top:35%;
+background: none repeat scroll 0 0 transparent;
+font-size:40px;
+opacity: 0.8;
+text-align: center;
+color: #000;
+text-decoration: none;
+background-color:#FFF;
+width:40px;
+height:45px;
+line-height:40px;
+}
+.carouseller .carouseller__left { left: -0vw;}
+.carouseller .carouseller__right { right: -0vw;}
+.carouseller .carouseller__left:hover, .carouseller .carouseller__:hover { opacity: 0.8;}
+
+.carouseller .car__by5,
+.carouseller .car__12,
+.carouseller .car__6,
+.carouseller .car__4,
+.carouseller .car__3,
+.carouseller .car__2,
+.carouseller .car__1 { width: 10%;}
+.add-btn {
+font-size: 14px;
+border:1px #c1c1c1 solid;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+padding:10px 10px;
+text-transform:uppercase;
+margin-top:10px;
+text-decoration:none;
+}
+
+.car__2 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__2 img {
+width:100%;
+margin:0 auto;
+}
+.car__2 h2 {
+font-size:18px;
+padding:15px 0;
+line-height:1.3em;
+}
+.car__2 h4 {
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+font-weight:600;
+padding:0;
+color:#000;
+line-height:1.5em;
+width: 100%;
+margin-top: 0;
+margin-bottom:10px;
+text-transform:uppercase;
+}
+.car__3 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__3 img {
+width:25%!important;
+margin:0 auto;
+}
+.car__3 h2 {
+font-size:18px;
+padding:0;
+line-height:1.3em;
+margin-top: 0;
+}
+
+.car__4 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__4 img {
+width:25%!important;
+margin:0 auto;
+}
+.car__4 h2 {
+font-size:16px;
+padding:10px 0;
+line-height:1.3em;
+}
+}
+
+@media (min-width:480px) and (max-width:639px) {
+.carouseller .carouseller__left, 
+.carouseller .carouseller__right {
+position: absolute;
+margin-bottom:40%;
+top:35%;
+background: none repeat scroll 0 0 transparent;
+font-size:40px;
+opacity: 0.8;
+text-align: center;
+color: #000;
+text-decoration: none;
+background-color:#FFF;
+width:40px;
+height:45px;
+line-height:40px;
+}
+.carouseller .carouseller__left { left: -0vw;}
+.carouseller .carouseller__right { right: -0vw;}
+.carouseller .carouseller__left:hover, .carouseller .carouseller__:hover { opacity: 0.8;}
+
+.car__2 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__2 img {
+width:100%;
+margin:0 auto;
+}
+.car__2 h2 {
+font-size:18px;
+padding:15px 0;
+line-height:1.3em;
+}
+.car__2 h4 {
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+font-weight:600;
+padding:0;
+color:#000;
+line-height:1.5em;
+width: 100%;
+margin-top: 0;
+margin-bottom:10px;
+text-transform:uppercase;
+}
+.car__3 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__3 img {
+width:50%;
+margin:0 auto;
+}
+.car__3 h2 {
+font-size:18px;
+padding:0;
+line-height:1.3em;
+margin-top: 0;
+}
+
+.car__4 {
+margin-bottom:10px;
+padding:10px 0 10px 0;
+}
+.car__4 img {
+width:35%;
+margin:0 auto;
+}
+.car__4 h2 {
+font-size:16px;
+padding:10px 0;
+line-height:1.3em;
+}
+}
+
+
+.carouseller .carouseller__left, 
+.carouseller .carouseller__right {
+position: absolute;
+margin-bottom:40%;
+top:40%;
+background: none repeat scroll 0 0 transparent;
+font-size:40px;
+opacity: 0.8;
+text-align: center;
+color: #000;
+text-decoration: none;
+background-color:#FFF;
+width:40px;
+height:45px;
+line-height:40px;
+}
+.carouseller .carouseller__left { left: -0vw;}
+.carouseller .carouseller__right { right: -0vw;}
+.carouseller .carouseller__left:hover, .carouseller .carouseller__:hover { opacity: 0.8;}
+
+
+
+/* This can be deleted */
+/* 
+[class*="car__"] 
+{ text-align: center; font-size: 30px; font-weight: bold;}
+*/
+h1 {font-size: 40px; margin-bottom: 10px;}
+.carouseller { margin-bottom: 0;}
+.car__2 h3 {
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+padding:10px;
+}
